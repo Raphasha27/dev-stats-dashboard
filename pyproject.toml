@@ -1,0 +1,11 @@
+[build-system]
+requires = ['setuptools>=64', 'wheel']
+build-backend = 'setuptools.backends._legacy:_Backend'
+
+[project]
+name = 'dev_stats_dashboard'
+version = '0.1.0'
+description = 'dev-stats-dashboard'
+readme = 'README.md'
+license = { text = 'MIT' }
+requires-python = '>=3.10'
