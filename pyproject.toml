@@ -1,11 +1,14 @@
 [build-system]
-requires = ['setuptools>=64', 'wheel']
-build-backend = 'setuptools.backends._legacy:_Backend'
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
 
 [project]
-name = 'dev_stats_dashboard'
-version = '0.1.0'
-description = 'dev-stats-dashboard'
-readme = 'README.md'
-license = { text = 'MIT' }
-requires-python = '>=3.10'
+name = "dev-stats-dashboard"
+version = "0.1.0"
+description = "GitHub contribution statistics web dashboard"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+dev-stats-dashboard = "dev_stats_dashboard.app:main"
