@@ -9,6 +9,7 @@ description = "GitHub contribution statistics web dashboard"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
+dependencies = []
 
 [project.scripts]
 dev-stats-dashboard = "dev_stats_dashboard.app:main"
